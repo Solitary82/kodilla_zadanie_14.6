@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container {
+    width: 850px;
+    height: 100vh;
+    background-color: #add8e6;
+    margin: auto;
+}
+
+#counter_one, #counter_two {
+    text-align: center;
+}
+
+button {
+    width: 200px;
+    height: 100px;
+    color: white;
+    background-color: blueviolet;
+    margin: 40px;
+}
