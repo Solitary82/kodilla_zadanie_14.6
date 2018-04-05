@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npm-run-all test:*",
-    "test:js1": "jshint counter.js",
-    "test:js2": "nu-html-checker index.html",
+    "test:js": "jshint counter.js",
+    "test:html": "nu-html-checker index.html",
     "download": "curl https://raw.githubusercontent.com/jshint/jshint/master/examples/.jshintrc -o .jshintrc"
   },
   "keywords": [],
