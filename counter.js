@@ -37,8 +37,9 @@ var Counter = React.createClass({
         console.log('Dokonanie kalkulacji po wprowadzeniu zmian, a przed kolejnym renderem');
     },
 
-    ShouldComponentUpdate: function() {
+    shouldComponentUpdate: function() {
         console.log('Przydatne w przypadkach, gdy trzeba sprawdzić, czy ponowne renderowanie jest potrzebne - służy optymalizacji');
+        return true;
     },
 
     componentWillUpdate: function() {
